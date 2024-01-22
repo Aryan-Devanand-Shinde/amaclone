@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box ;
+    /* boderbox conunts inside the height and width */
+
+}
+a{
+    text-decoration: none;
+    color: rgb(43, 158, 200);
+}
+
+.navbar{
+    height: 60px;
+    background-color:#0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* box1 */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.border{
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+.border:hover{
+    border: 2px solid white;
+}
+
+#aws{
+    font-size: 40px;
+    margin-top: 10px;
+}
+
+/* box2 */
+#deliver{
+    
+    font-size: 0.7rem;
+    color: #ccc;
+}
+
+#india{
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 3px;
+}
+
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.asach{
+    padding-top: 8px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 8px;
+}
+
+#searchamazon{
+    width:86%;
+    font-size: 1rem;
+    border: none;
+}
+
+/* .search-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-left: 3px;
+} */
+.search-logo{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+}
+/* box3 */
+.search-bar{
+    display: flex;
+    background-color: rgba(237, 194, 3, 0.865);
+    width: 630px;
+    height: 40px;
+    border-radius: 3px;
+    padding-left: 3px;
+    padding-right: 4px;
+}
+.searchselect{
+    width: 50px;
+    border: none;
+    border-radius:3px 0 0 3px;
+    background-color:whitesmoke ;
+    padding-left: 5px;
+    text-align: center;
+}
+
+/* box4 */
+.en{
+    width:70;
+    height: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* box5 */
+.hello{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.hellosignin{
+    font-size: 0.7rem;
+}
+.account{
+    font-size: 1rem;
+}
+
+/* box6 */
+.returnsorder{
+    height:50px;
+    width:75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.return{
+    font-size: 0.7rem;
+}
+.orders{
+    font-size: 1.1rem;
+}
+
+/* box 7 */
+.shoppingc{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.zero{
+    color: rgba(237, 194, 3, 0.865);
+}
+.gadi{
+    font-size: 1.2rem;
+}
+.cart{
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
+
+.seconddiv{
+    width: 100%;
+    height: 50px;
+    background-color:rgb(37, 37, 78);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    font-size: 1.02rem;
+}
+
+.frstblock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 39px;
+    width: 60px;
+}
+
+.Todatysdeals{
+    height: 39px;
+    width: 102px;
+    padding-left:5px ;
+    padding-right: 7px;
+}
+.Registry{
+    height: 39px;
+    width: 70px;
+    padding-left:5px ;
+    padding-right: 7px;
+}
+.Customerservice{
+    height: 39px;
+    width: 130px;
+    padding-left:5px ;
+    padding-right: 7px;
+}
+.Giftcards{
+    height: 39px;
+    width: 120px;
+}
+.Sell{
+    height: 39px;
+    width: 40px;
+    padding-left:5px ;
+    padding-right: 7px;
+}
+.shopdealsinele{
+    height: 39px;
+    width: fit-content;
+    position: absolute;
+    right: 25px;
+    font-size: 1.2rem;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* MAIN */
+.heroimg{
+    background-image: url(./hero.jpg);
+    width:100% ;
+    height: 500px;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lineinbetween{
+    width: 97%;
+    height: 40px;
+    background-color:white;
+    text-align: center;
+    font-size: 1.05rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para a{
+    text-decoration: none;
+}
+
+/* cards */
+.boxes {
+    width: 31%;
+    height: 450px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);  
+}
+
+.boox{
+    height: 100px;
+    width: 100px;
+}
+
+
+.shoppingcards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headings{
+    font-size: 1.7rem;
+    position: relative;
+    left: 40px;
+    top: 14px;
+}
+.boxinbox1{
+    position: relative;
+    top: 20px;
+    /* display: flex;
+    justify-content: center; */
+    justify-content: space-between;
+    /* position: relative; */
+    /* left: 41px; */
+    
+    /* align-items: center; */
+    height:80%;
+    width:80%;
+}
+.boxinbox11{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    margin-left: 35px;
+}
+.boxinbox12{
+    height: 50%;
+    width: 50%;
+    display: flex;
+    margin-left: 35px;
+}
+
+.image{
+    height: 150px;
+    width: 200px;
+    border-radius: 3px;
+}
+.seemore{
+    position: relative;
+    left: 35px;
+    top: 10px;
+}
+.orangehover:hover{
+    color: rgb(250, 108, 76);
+}
+
+.centringpc{
+    justify-content: center;
+}
+.cpuimage{
+    width: 90%;
+    position: relative;
+    left: 23px;
+    top: 30px;
+}
+
+.shopnow{
+    position: relative;
+    top: 45px;
+}
+
+
+/* footer */
+.foot{
+    width: 100%;
+    height: 1010px;
+    position: relative;
+    top: 80px;
+    background-color:  rgb(25, 37, 55);
+    
+}
+
+.fbox{
+    height: 5%;
+    background-color: rgb(28, 31, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sbox{
+    height: 50%;
+    background-color: #232F3E;
+}
+.s1box1{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 50px;
+}
+.foothov{
+    color: #fff;
+    font-size: 1.12rem;
+}
+.adjus{
+    margin-top: 12px;
+    /* bottom: 15px; */
+}
+.foothov:hover{
+    text-decoration: underline;
+}
+.s1box{
+    justify-content: space-evenly;
+}
+.xx{
+    height: 15%;
+}
